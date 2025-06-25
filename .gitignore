@@ -1,0 +1,27 @@
+# System files 
+.DS_Store
+Thumbs.db
+
+#  Docker socket or temp files
+*.sock
+*.pid
+*.swp
+
+#  env files 
+*.env
+
+# SSL private keys
+nginx/ssl/*.key
+nginx/ssl/*.crt
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor config
+.vscode/
+
+# Others
+*.sock
+*.log
+
